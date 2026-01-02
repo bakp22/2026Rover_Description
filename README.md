@@ -49,15 +49,14 @@ This package enables:
 ### 1️⃣ Clone the repository
 
 ```bash
-cd ~/ros2_ws/src
 git clone https://github.com/bakp22/2026Rover_Description.git
 ```
 
 ### 2️⃣ Build the workspace
 
 ```bash
-cd ~/ros2_ws
-colcon build --symlink-install
+cd ~/2026Rover_Description
+colcon build
 ```
 
 ### 3️⃣ Source the workspace
