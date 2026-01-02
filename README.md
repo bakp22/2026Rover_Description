@@ -1,6 +1,6 @@
 # 2026 Rover — Robot Description Package
 
-This repository contains the **robot description** for the *2026 Rover* — a ROS-compatible model including its URDF/XACRO files, meshes, launch configurations, and RViz visualizations.
+This repository contains the **robot description** for the *2026 Boston University Mars Rover* — a ROS2-compatible model including its URDF/XACRO files, meshes, launch configurations, and RViz visualizations.
 
 > ⚙️ This package provides the core assets needed to visualize, simulate, and integrate the 2026 Rover within ROS 2 workflows.
 
