@@ -1,0 +1,18 @@
+[0.006s] Invoking command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description -- -j8 -l8
+[0.030s] Invoked command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description -- -j8 -l8
+[0.038s] Invoking command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description
+[0.044s] -- Install configuration: ""
+[0.044s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch
+[0.044s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/display.launch
+[0.045s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/gazebo.launch.py
+[0.045s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/controller.yaml
+[0.045s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/gazebo.launch
+[0.045s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/display.launch.py
+[0.045s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/controller.launch
+[0.045s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.045s]   file INSTALL cannot find
+[0.045s]   "/home/berenakpinar/Downloads/2026Rover_description/config": No such file
+[0.045s]   or directory.
+[0.045s] 
+[0.045s] [0m
+[0.045s] Invoked command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description
