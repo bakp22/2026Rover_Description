@@ -1,0 +1,59 @@
+[0.010s] Invoking command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description -- -j8 -l8
+[0.087s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Configuring done
+[0.246s] -- Generating done
+[0.248s] -- Build files have been written to: /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description
+[0.261s] Invoked command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description -- -j8 -l8
+[0.267s] Invoking command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description
+[0.270s] -- Install configuration: ""
+[0.270s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch
+[0.270s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/display.launch
+[0.271s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/slam.launch.py
+[0.271s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/gazebo.launch.py
+[0.272s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/controller.yaml
+[0.272s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/gazebo.launch
+[0.272s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/display.launch.py
+[0.272s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/controller.launch
+[0.272s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/launch/online_async_launch.py
+[0.272s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/config
+[0.272s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/config/rover_controllers.yaml
+[0.272s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/config/mapper_params_online_async.yaml
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/materials.xacro
+[0.273s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/URDF.xacro
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/URDF.trans
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/URDF.sdf
+[0.273s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/urdf/URDF.gazebo
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Bar2_1.stl
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Wheel2_1.stl
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Bogie3_1.stl
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Wheel1_1.stl
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Bogie2_1.stl
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Bar1_1.stl
+[0.273s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Wheel4_1.stl
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Wheel5_1.stl
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Diff1_1.stl
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Wheel6_1.stl
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/base_link.stl
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Wheel3_1.stl
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Bogie1_1.stl
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/meshes/Bogie4_1.stl
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/rviz
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/rviz/urdf.rviz
+[0.274s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/ament_index/resource_index/package_run_dependencies/urdf_description
+[0.274s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/ament_index/resource_index/parent_prefix_path/urdf_description
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/environment/ament_prefix_path.sh
+[0.274s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/environment/ament_prefix_path.dsv
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/environment/path.sh
+[0.274s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/environment/path.dsv
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/local_setup.bash
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/local_setup.sh
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/local_setup.zsh
+[0.274s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/local_setup.dsv
+[0.274s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/package.dsv
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/ament_index/resource_index/packages/urdf_description
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/cmake/urdf_descriptionConfig.cmake
+[0.274s] -- Up-to-date: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/cmake/urdf_descriptionConfig-version.cmake
+[0.274s] -- Installing: /home/berenakpinar/Downloads/2026Rover_description/install/urdf_description/share/urdf_description/package.xml
+[0.276s] Invoked command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description

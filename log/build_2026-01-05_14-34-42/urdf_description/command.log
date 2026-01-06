@@ -1,0 +1,4 @@
+Invoking command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description -- -j8 -l8
+Invoked command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description -- -j8 -l8
+Invoking command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description
+Invoked command in '/home/berenakpinar/Downloads/2026Rover_description/build/urdf_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/berenakpinar/Downloads/2026Rover_description/build/urdf_description

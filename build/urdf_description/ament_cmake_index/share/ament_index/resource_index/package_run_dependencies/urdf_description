@@ -1,1 +1,1 @@
-robot_state_publisher;joint_state_publisher;joint_state_publisher_gui;rviz2;xacro;ros_gz_sim;ign_ros2_control;gz_ros2_control
+robot_state_publisher;joint_state_publisher;joint_state_publisher_gui;rviz2;xacro;ros_gz_sim;ign_ros2_control;gz_ros2_control;ros_gz_bridge;slam_toolbox

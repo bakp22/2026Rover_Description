@@ -1,7 +1,9 @@
 from launch import LaunchDescription
-from launch.actions import ExecuteProcess, TimerAction, AppendEnvironmentVariable
+from launch.actions import ExecuteProcess, TimerAction, AppendEnvironmentVariable, IncludeLaunchDescription
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
+from launch.actions import IncludeLaunchDescription
+from launch.launch_description_sources import PythonLaunchDescriptionSource
 import os
 
 def generate_launch_description():
@@ -15,9 +17,39 @@ def generate_launch_description():
     xacro_file = os.path.join(pkg_path, 'urdf', 'URDF.xacro')
     robot_description = os.popen(f'xacro {xacro_file}').read()
 
+    slam_launch_path = os.path.join(
+        get_package_share_directory('urdf_description'),
+        'launch',
+        'online_async_launch.py'
+    )
+
+    # 2. Define the Include action
+    include_slam = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(slam_launch_path),
+        launch_arguments={
+            'use_sim_time': 'true',
+            'params_file': '/home/berenakpinar/Downloads/2026Rover_description/config/mapper_params_online_async.yaml'
+            
+        }.items()
+    )
+
+    rviz_launch_path = os.path.join(
+        get_package_share_directory('urdf_description'),
+        'launch',
+        'display.launch.py'
+    )
+    include_rviz = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(rviz_launch_path),
+        launch_arguments={
+            'use_sim_time': 'true',
+        }.items()
+    )
+
     return LaunchDescription([
 
         set_resource_path,
+        #include_slam,
+        #include_rviz,
 
         # Start Gazebo
         ExecuteProcess(cmd=['ign', 'gazebo', '-r', 'empty.sdf'], output='screen'),
@@ -31,6 +63,7 @@ def generate_launch_description():
                 'use_sim_time': True
             }],
         ),
+
 
         # Spawn robot
         TimerAction(
@@ -50,6 +83,16 @@ def generate_launch_description():
                     output='screen'
                 )
             ]
-        )
+        ),
+
+        Node(
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            arguments=[
+                '/scan@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',
+                '/clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock'
+            ],
+            output='screen'
+        ),
                 
     ])
