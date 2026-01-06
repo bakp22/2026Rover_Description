@@ -22,14 +22,15 @@ def generate_launch_description():
         'launch',
         'online_async_launch.py'
     )
+    
+    slam_params_file = os.path.join(pkg_path, 'config', 'mapper_params_online_async.yaml')
 
     # 2. Define the Include action
     include_slam = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(slam_launch_path),
         launch_arguments={
             'use_sim_time': 'true',
-            'params_file': '/home/berenakpinar/Downloads/2026Rover_description/config/mapper_params_online_async.yaml'
-            
+            'params_file': slam_params_file
         }.items()
     )
 
@@ -48,8 +49,8 @@ def generate_launch_description():
     return LaunchDescription([
 
         set_resource_path,
-        #include_slam,
-        #include_rviz,
+        include_slam,
+        include_rviz,
 
         # Start Gazebo
         ExecuteProcess(cmd=['ign', 'gazebo', '-r', 'empty.sdf'], output='screen'),
@@ -89,8 +90,8 @@ def generate_launch_description():
             package='ros_gz_bridge',
             executable='parameter_bridge',
             arguments=[
-                '/scan@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',
-                '/clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock'
+                '/scan@sensor_msgs/msg/LaserScan@ignition.msgs.LaserScan',
+                '/clock@rosgraph_msgs/msg/Clock@ignition.msgs.Clock'
             ],
             output='screen'
         ),
